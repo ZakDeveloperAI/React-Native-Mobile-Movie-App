@@ -32,9 +32,9 @@ const MovieCard = ({id, poster_path,title,vote_average,release_date,popularity}:
                 <Text className='text-xs text-light-300 font-medium mt-1'>
                     {release_date?.split('-')[0]}
                 </Text>
-                <Text className='text-xs font-medium text-light-300 uppercase pr-1.5'>
-                    {popularity.toFixed(0)}K 
-                    <Image source={icons.person} className='size-3 ml-1' />
+                <Text className='text-xs font-medium text-light-300 uppercase pr-0.5'>
+                    <>{popularity.toFixed(0)}K </>
+                    <Image source={icons.person} className='size-3' />
                 </Text>
                 
             </View>

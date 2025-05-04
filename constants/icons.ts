@@ -15,5 +15,5 @@ export const icons = {
   save,
   star,
   play,
-  arrow,
+  arrow
 };
